@@ -14,16 +14,16 @@
 ## 세부 일정
 |날짜|시간|풀이 문제|
 |----|---------|---------------------------------------------------|
-|9/20|4:00-7:00|* [동적계획법-타일장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) * [스택/큐-프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) * [완전탐색-모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)|
-|9/27|2:00-5:00|* [[백준]17140-이차원 배열과 연산](https://www.acmicpc.net/problem/17140) * [[백준]17142-연구소3](https://www.acmicpc.net/problem/17142)|
-|9/30|8:00-11:00|* [[백준]17144-미세먼지 안녕!](https://www.acmicpc.net/problem/17144) * [[백준]17143-낚시왕](https://www.acmicpc.net/problem/17143)|
-|10/7|8:00-11:00|* [[백준]16235-나무 재테크](https://www.acmicpc.net/problem/16235) * [[백준]16236-아기 상어](https://www.acmicpc.net/problem/16236)|
-|10/14|8:00-11:00|* [[백준]5373-큐빙](https://www.acmicpc.net/problem/5373) * [[백준]16234-인구 이동](https://www.acmicpc.net/problem/16234)|
-|10/18|2:00-5:00|* [[SWEA]2382-미생물격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl) * [[SWEA]2117-홈 방법 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu)|
-|10/21|8:00-11:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
-|10/25|8:00-11:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
-|10/28|8:00-11:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
-|11/1|8:00-11:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
+|9/20|16:00-19:00|* [동적계획법-타일장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) * [스택/큐-프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) * [완전탐색-모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)|
+|9/27|14:00-17:00|* [[백준]17140-이차원 배열과 연산](https://www.acmicpc.net/problem/17140) * [[백준]17142-연구소3](https://www.acmicpc.net/problem/17142)|
+|10/3|14:00-17:00|* [[백준]17144-미세먼지 안녕!](https://www.acmicpc.net/problem/17144) * [[백준]17143-낚시왕](https://www.acmicpc.net/problem/17143)|
+|10/7|20:00-23:00|* [[백준]16235-나무 재테크](https://www.acmicpc.net/problem/16235) * [[백준]16236-아기 상어](https://www.acmicpc.net/problem/16236)|
+|10/14|20:00-23:00|* [[백준]5373-큐빙](https://www.acmicpc.net/problem/5373) * [[백준]16234-인구 이동](https://www.acmicpc.net/problem/16234)|
+|10/18|14:00-17:00|* [[SWEA]2382-미생물격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl) * [[SWEA]2117-홈 방법 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu)|
+|10/21|20:00-23:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
+|10/25|20:00-23:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
+|10/28|20:00-23:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
+|11/1|20:00-23:00|컴구, 컴넷, 운체, 디비, 자구 소공, 디자인패턴, 머신러닝(TBD)|
 
 ## 예산 사용 예시
 * 총액 : 20만원
