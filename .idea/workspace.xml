@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f6abb9-a633-40b5-bce1-43e53e5913f1" name="Default Changelist" comment="" />
+    <list default="true" id="06f6abb9-a633-40b5-bce1-43e53e5913f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,44 +21,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junu_ddi/1주차/0920_brute-force_42840.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junu_ddi/1주차/0920_dp_42895.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junu_ddi/1주차/0920_stack-queue_42587.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kyungee/1주차/0920_dp_42895.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kyungee/1주차/0920_brute-force_42840.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="376">
               <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kyungee/2주차/0927_bfs_17142.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1139" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yoongOTTO/2주차/0927_bfs_17142.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yoongOTTO/2주차/0927_simul_17140.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yoongOTTO/4주차-1/1014_bfs_16234.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kyungee/2주차/0927_simul_17140.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -75,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yoongOTTO/1주차/0920_dp_42895.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yoongOTTO/1주차/0926_dp_42895.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -95,6 +106,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/yoongOTTO/1주차</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -104,6 +120,12 @@
         <option value="$PROJECT_DIR$/yoongOTTO/1주차/0920_brute-force_42840.cpp" />
         <option value="$PROJECT_DIR$/yoongOTTO/1주차/0920_stack-queue_42587.cpp" />
         <option value="$PROJECT_DIR$/yoongOTTO/1주차/0920_dp_42895.cpp" />
+        <option value="$PROJECT_DIR$/yoongOTTO/1주차/0926_dp_42895.cpp" />
+        <option value="$PROJECT_DIR$/yoongOTTO/2주차/0927_bfs_17142.cpp" />
+        <option value="$PROJECT_DIR$/kyungee/2주차/0927_simul_17140.cpp" />
+        <option value="$PROJECT_DIR$/yoongOTTO/2주차/0927_simul_17140.cpp" />
+        <option value="$PROJECT_DIR$/yoongOTTO/4주차-1/1014_simul_16234.cpp" />
+        <option value="$PROJECT_DIR$/yoongOTTO/4주차-1/1014_bfs_16234.cpp" />
       </list>
     </option>
   </component>
@@ -120,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,7 +174,30 @@
             <path>
               <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
-              <item name="ryulth" type="462c0819:PsiDirectoryNode" />
+              <item name="kyungee" type="462c0819:PsiDirectoryNode" />
+              <item name="2주차" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
+              <item name="maejin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
+              <item name="maejin" type="462c0819:PsiDirectoryNode" />
+              <item name="2주차" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
+              <item name="minhye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
+              <item name="minhye" type="462c0819:PsiDirectoryNode" />
+              <item name="2week" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
@@ -164,12 +208,13 @@
               <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
               <item name="yoongOTTO" type="462c0819:PsiDirectoryNode" />
-              <item name="1주차" type="462c0819:PsiDirectoryNode" />
+              <item name="4주차-1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +247,8 @@
       <workItem from="1569069662742" duration="1181000" />
       <workItem from="1569420206657" duration="453000" />
       <workItem from="1569486795628" duration="4000" />
+      <workItem from="1569491392689" duration="505000" />
+      <workItem from="1570974958820" duration="5837000" />
     </task>
     <task id="LOCAL-00001" summary="1주차 소스코드">
       <created>1569071048822</created>
@@ -210,16 +257,30 @@
       <option name="project" value="LOCAL" />
       <updated>1569071048822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1주차 과제코드">
+      <created>1569491579804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569491579805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add 16234">
+      <created>1571055589027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571055589027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1638000" />
+    <option name="totallyTimeSpent" value="7980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="720" height="807" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4218289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31563422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,7 +292,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16783217" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -284,9 +345,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1주차 소스코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="1주차 소스코드" />
+    <MESSAGE value="1주차 과제코드" />
+    <MESSAGE value="Add 16234" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 16234" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/1주차/0920_dp_42895.cpp" />
     <entry file="file://$PROJECT_DIR$/junu_ddi/1주차/0920_brute-force_42840.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -311,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kyungee/1주차/0920_brute-force_42840.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kyungee/1주차/0920_stack-queue_42587.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -335,10 +392,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yoongOTTO/1주차/0920_dp_42895.cpp">
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/1주차/0926_dp_42895.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kyungee/1주차/0920_brute-force_42840.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kyungee/2주차/0927_bfs_17142.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/2주차/0927_bfs_17142.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maejin/2주차/simulation_array_17140.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1939" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minhye/2week/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kyungee/2주차/0927_simul_17140.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/4주차-1/1014_simul_16234.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/2주차/0927_simul_17140.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/4주차-1/1014_bfs_16234.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
