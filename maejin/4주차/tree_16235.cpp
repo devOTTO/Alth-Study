@@ -36,32 +36,41 @@ void spring() {
     
     for (int i = 1; i <= N; i++) {
         for (int j = 1; j <= N; j++) {
-            int index = 0;
-            sort(trees[i][j].begin(), trees[i][j].end(), compare);
-            while (index < trees[i][j].size()) {
-                
-                if (map[i][j] >= trees[i][j][index].age){
+            
+            if (!trees[i][j].empty()){
+                sort(trees[i][j].begin(), trees[i][j].end(), compare);
+                int size = trees[i][j].size();
+                int index = -1;
+                for (int k = 0; k < size; k++) {
                     
-                    map[i][j] -= trees[i][j][index].age;
-                    trees[i][j][index].age++;
+                    if (map[i][j] < trees[i][j][k].age){
+                        index = k;
+                        break;
+                    }
                     
-                    index++;
+                    map[i][j] -= trees[i][j][k].age;
+                    trees[i][j][k].age++;
                 }
-                else {
-                    dead.push_back(trees[i][j][index]);
-                    trees[i][j].erase(trees[i][j].begin()+index);
-                    M--;
+                
+                if (index != -1){
+                    for (int k = 0; k < size-index; k++) {
+                        dead.push_back(trees[i][j][index]);
+                        trees[i][j].erase(trees[i][j].begin()+index);
+                        M--;
+                    }
                 }
             }
         }
     }
 }
 
+
 void summer() {
     
     while (!dead.empty()) {
-        tree temp = dead[dead.size()-1];
-        dead.pop_back();
+        
+        tree temp = dead[0];
+        dead.erase(dead.begin());
         map[temp.x][temp.y] += temp.age/2;
     }
 }
