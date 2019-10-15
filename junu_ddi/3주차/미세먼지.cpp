@@ -10,96 +10,110 @@ int r, c, t;
 int dy[] = { 0,0,-1,1 };
 int dx[] = { 1,-1,0,0 };
 int upairy, upairx, downairy, downairx;
-int v[50][50];
+int v[51][51];
+
 
 int main() {
-
-	cin >> r >> c >> t;
+	
+	 cin >> r >> c >> t;
 	vector<pair<int, int>> start;
-	vector<queue<pair<int, int>>> qs(1001); //ÃÊ¸¶´ÙÀÇ ¸ÕÁöµéÀÌ ´ã±ä ÁÂÇ¥Å¥ ¹è¿­
+	vector<queue<pair<int, int>>> qs(1002); //ì´ˆë§ˆë‹¤ì˜ ë¨¼ì§€ë“¤ì´ ë‹´ê¸´ ì¢Œí‘œí ë°°ì—´
 	int flag = 0;
 	for (int i = 0; i < r; i++) {
 		for (int j = 0; j < c; j++) {
 			int a; cin >> a;
 			v[i][j] = a;
-			if (a != -1 && a != 0) { //°ø±âÃ»Á¤±â(-1)ÀÌ ¾Æ´Ï°í ºóÄ­ÀÌ ¾Æ´Ï¸é ¸ÕÁö°ª ÀúÀå
+			if (a != -1 && a != 0) { //ê³µê¸°ì²­ì •ê¸°(-1)ì´ ì•„ë‹ˆê³  ë¹ˆì¹¸ì´ ì•„ë‹ˆë©´ ë¨¼ì§€ê°’ ì €ì¥
 				qs[1].push(make_pair(i, j));
 			}
-			if (flag == 0 && a == -1) { //°ø±âÃ»Á¤±â À­Ä­ÀÌ¸é ÇØ´ç À§Ä¡¸¦ ÀúÀåÇÑ´Ù.
+			if (flag==0&&a == -1) { //ê³µê¸°ì²­ì •ê¸° ìœ—ì¹¸ì´ë©´ í•´ë‹¹ ìœ„ì¹˜ë¥¼ ì €ì¥í•œë‹¤.
 				upairy = i; upairx = j;
 				flag = 1;
 			}
-			else if (flag == 1 && a == -1) { //¾Æ·¡Ä­ÀÌ¸é ÇØ´ç À§Ä¡¸¦ ÀúÀåÇÑ´Ù.
+			else if (flag == 1 && a == -1) { //ì•„ë˜ì¹¸ì´ë©´ í•´ë‹¹ ìœ„ì¹˜ë¥¼ ì €ì¥í•œë‹¤.
 				downairy = i; downairx = j;
 			}
 		}
 	}
 	//cout << downairy << downairx << endl;
 	for (int i = 1; i <= t; i++) {
-		int plus[50][50];//¸ÅÃÊ¸¶´Ù º¯È­ÇÏ´Â ¸ÕÁöÇöÈ²À» ´ã´Â ¹è¿­
-		memset(plus, 0, sizeof(plus));
-		plus[upairy][upairx] = -1; plus[downairy][downairx] = -1; //°ø±âÃ»Á¤±â ÀúÀå
+		int temp[51][51];
+		//ë§¤ì´ˆë§ˆë‹¤ ë³€í™”í•˜ëŠ” ë¨¼ì§€í˜„í™©ì„ ë‹´ëŠ” ë°°ì—´
+		memset(temp, 0, sizeof(temp));
+		temp[upairy][upairx] = -1; temp[downairy][downairx] = -1; //ê³µê¸°ì²­ì •ê¸° ì €ì¥
 		while (!qs[i].empty()) {
-			int y = qs[i].front().first; int x = qs[i].front().second; qs[i].pop(); //¸ÕÁö¸¦ ²¨³»¿Â´Ù.
+			int y = qs[i].front().first; int x = qs[i].front().second; qs[i].pop(); //ë¨¼ì§€ë¥¼ êº¼ë‚´ì˜¨ë‹¤.
 			int cnt = 0;
-			plus[y][x] += v[y][x]; //¸ÕÁö Áö¼ö¸¦ º¹»ç
+			temp[y][x] += v[y][x]; //ë¨¼ì§€ ì§€ìˆ˜ë¥¼ ë³µì‚¬
 			for (int j = 0; j < 4; j++) {
 				int ny = y + dy[j]; int nx = x + dx[j];
-				if (0 > ny || ny >= r || 0 > nx || nx >= c || (ny == upairy && nx == upairx) || (ny == downairy && nx == downairx))
-					//¹üÀ§ ¹ÛÀÌ°Å³ª Ã»Á¤±âÀÏ¶§ Ãë¼Ò
-					continue;
-				plus[ny][nx] += v[y][x] / 5;
+				if (0 > ny || ny >= r || 0 > nx || nx >= c || (ny==upairy&&nx==upairx)||(ny==downairy&&nx==downairx)) 
+					//ë²”ìœ„ ë°–ì´ê±°ë‚˜ ì²­ì •ê¸°ì¼ë•Œ ì·¨ì†Œ
+					continue; 
+				temp[ny][nx] += v[y][x] / 5;
 				cnt++;
-
 			}
-			plus[y][x] -= (v[y][x] / 5)*cnt;
-
-			//ÇÑ¹ø ÆÛÁö°í ±×´ÙÀ½ °ø±âÃ»Á¤±â °¡µ¿
+			temp[y][x]-= (v[y][x] / 5)*cnt;
+			
+			//í•œë²ˆ í¼ì§€ê³  ê·¸ë‹¤ìŒ ê³µê¸°ì²­ì •ê¸° ê°€ë™
 		}
+
+		temp[upairy][upairx] = 0; temp[downairy][downairx] = 0;
 		/*cout << "\n";
 		for (int i = 0; i < r; i++) {
-		for (int j = 0; j < c; j++) {
-		//cout << v[i][j] << " ";
-		printf("%2d ", plus[i][j]);
-		}
-		cout << "\n";
+			for (int j = 0; j < c; j++) {
+				//cout << v[i][j] << " ";
+				printf("%2d ", temp[i][j]);
+			}
+			cout << "\n";
 		}*/
-		//°ø±âÃ»Á¤±â ÀÛµ¿
-		for (int j = upairy - 1; j - 1 >= 0; j--)
-			plus[j][0] = plus[j - 1][0];
-		for (int j = 0; j + 1<c; j++)
-			plus[0][j] = plus[0][j + 1];
-		for (int j = 0; j + 1 <= upairy; j++)
-			plus[j][c - 1] = plus[j + 1][c - 1];
-		for (int j = c - 1; j - 1>0; j--)
-			plus[upairy][j] = plus[upairy][j - 1];
-		plus[upairy][1] = 0;
+		//ê³µê¸°ì²­ì •ê¸° ì‘ë™
+		for (int j = upairy; j - 1 >= 0; j--) //ì™¼ìª½
+			temp[j][0] = temp[j - 1][0];
+		temp[upairy][upairx] = 0;
+		for (int j = 0; j + 1<c; j++) //ë§¨ìœ„
+			temp[0][j] = temp[0][j + 1];
+		temp[upairy][upairx] = 0;
+		for (int j = 0; j + 1 <= upairy; j++) //ì˜¤ë¥¸ìª½
+			temp[j][c - 1] = temp[j + 1][c - 1];
+		temp[upairy][upairx] = 0;
+		for (int j = c - 1; j - 1>=0; j--) //ì²­ì •ê¸° ìœ—ë¼ì¸
+			temp[upairy][j] = temp[upairy][j - 1];
+		temp[upairy][upairx] = 0; 
+		
 
-		for (int j = downairy + 1; j + 1<r; j++)
-			plus[j][0] = plus[j + 1][0];
-		for (int j = 0; j + 1<c; j++)
-			plus[r - 1][j] = plus[r - 1][j + 1];
-		for (int j = r - 1; j - 1 >= downairy; j--)
-			plus[j][c - 1] = plus[j - 1][c - 1];
-		for (int j = c - 1; j - 1>0; j--)
-			plus[downairy][j] = plus[downairy][j - 1];
-		plus[downairy][1] = 0;
-		//cout << "\n";
-		/*for (int i = 0; i < r; i++) {
-		for (int j = 0; j < c; j++) {
-		//cout << v[i][j] << " ";
-		printf("%2d ", temp[i][j]);
-		}
-		cout << "\n";
-		}*/
+		for (int j = downairy; j + 1<r; j++) //ì™¼ìª½
+			temp[j][0] = temp[j + 1][0];
+		temp[downairy][downairx] = 0;
+		for (int j = 0; j + 1<c; j++) //ë§¨ ì•„ë˜
+			temp[r - 1][j] = temp[r - 1][j + 1];
+		temp[downairy][downairx] = 0;
+		for (int j = r - 1; j - 1 >= downairy; j--) //ì˜¤ë¥¸ìª½
+			temp[j][c - 1] = temp[j - 1][c - 1];
+		temp[downairy][downairx] = 0;
+		for (int j = c - 1; j - 1>=0; j--) //ì²­ì •ê¸° ì•„ë«ë¼ì¸
+			temp[downairy][j] = temp[downairy][j - 1];
+		temp[downairy][downairx] = 0;
+
+		
+		temp[upairy][upairx] = -1;
+		temp[downairy][downairx] = -1;
 		for (int j = 0; j < r; j++) {
-			for (int k = 0; k < c; k++) { //°»½ÅµÈ °ÍÀ» v¿¡ ÀúÀå
-				v[j][k] = plus[j][k];
-				if (plus[j][k] != 0 && plus[j][k] != -1)
+			for (int k = 0; k < c; k++) { //ê°±ì‹ ëœ ê²ƒì„ vì— ì €ì¥
+				v[j][k] = temp[j][k];
+				if (temp[j][k] != 0&& temp[j][k]!=-1)
 					qs[i + 1].push(make_pair(j, k));
 			}
 		}
-
+		/*cout << "\n";
+		for (int i = 0; i < r; i++) {
+			for (int j = 0; j < c; j++) {
+				//cout << v[i][j] << " ";
+				printf("%2d ", temp[i][j]);
+			}
+			cout << "\n";
+		}*/
+	
 	}
 	//cout << "\n";
 	int sum = 0;
@@ -110,6 +124,6 @@ int main() {
 		}
 		//cout << "\n";
 	}
-	cout << sum + 2 << "\n";
+	cout << sum+2 << "\n";
 	return 0;
 }
