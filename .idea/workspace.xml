@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f6abb9-a633-40b5-bce1-43e53e5913f1" name="Default Changelist" comment="Update 5373">
-      <change afterPath="$PROJECT_DIR$/yoongOTTO/5주차-2/1017_simul_2382_swea.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yoongOTTO/5주차/1017_bfs_simul_2117_swea.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,27 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yoongOTTO/5주차-1/1014_bfs_16234.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yoongOTTO/5주차-1/1014_simul_5373.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yoongOTTO/5주차-2/1017_simul_2382_swea.cpp">
+        <entry file="file://$PROJECT_DIR$/yoongOTTO/5주차/1017_bfs_simul_2117_swea.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="1935">
+              <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -135,6 +120,7 @@
         <option value="$PROJECT_DIR$/yoongOTTO/4주차-1/1014_simul_5373.cpp" />
         <option value="$PROJECT_DIR$/yoongOTTO/4주차/1011_bfs_tree_16245.cpp" />
         <option value="$PROJECT_DIR$/yoongOTTO/5주차-2/1017_simul_2382_swea.cpp" />
+        <option value="$PROJECT_DIR$/yoongOTTO/5주차/1017_bfs_simul_2117_swea.cpp" />
       </list>
     </option>
   </component>
@@ -238,6 +224,12 @@
               <item name="yoongOTTO" type="462c0819:PsiDirectoryNode" />
               <item name="2주차" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Alth-Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alth-Study" type="462c0819:PsiDirectoryNode" />
+              <item name="yoongOTTO" type="462c0819:PsiDirectoryNode" />
+              <item name="5주차" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -281,7 +273,7 @@
       <workItem from="1569420206657" duration="453000" />
       <workItem from="1569486795628" duration="4000" />
       <workItem from="1569491392689" duration="505000" />
-      <workItem from="1570974958820" duration="7852000" />
+      <workItem from="1570974958820" duration="8898000" />
     </task>
     <task id="LOCAL-00001" summary="1주차 소스코드">
       <created>1569071048822</created>
@@ -322,13 +314,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9995000" />
+    <option name="totallyTimeSpent" value="11041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,7 +332,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14457831" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14457831" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yoongOTTO/2주차/0927_simul_17140.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yoongOTTO/3주차.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -531,7 +516,21 @@
     <entry file="file://$PROJECT_DIR$/yoongOTTO/5주차-2/1017_simul_2382_swea.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/2주차/0927_simul_17140.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yoongOTTO/5주차/1017_bfs_simul_2117_swea.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
         </state>
       </provider>
     </entry>
