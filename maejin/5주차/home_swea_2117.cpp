@@ -9,36 +9,62 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <math.h>
+#include <queue>
 using namespace std;
 
 int T, N, M;
 vector<int> answers;
-int houseNum;
-int maxCost, maxK;
-int answer;
 
+int answer;
 int map[20][20];
 
-int findHouseNum(int k, int x, int y){
+int startX, startY;
+vector<pair<int, int> > houseList;
+
+bool visited[20][20];
+int dx[] = {-1, 1, 0, 0};
+int dy[] = {0, 0, -1, 1};
+
+
+void bfs(queue<pair<int, int> > que, int k, int house) {
     
-    int num = 0;
+    queue<pair<int, int> > next;
     
-    int startX = x - (k-1);
-    int endX = x + (k-1);
-    int startY = y - (k-1);
-    int endY = y + (k-1);
-    
-    for (int i = startX; i <= endX; i++){
-        for (int j = startY; j <= endY; j++){
-            //범위 안에 집이 있을 경우
-            if (i >= 0 && i < N && j >= 0 && j < N && map[i][j] == 1)
-                num++;
+    while(!que.empty()){
+        
+        int x = que.front().first;
+        int y = que.front().second;
+        que.pop();
+        
+        if (map[x][y] == 1)
+            house++;
+        
+        
+        for (int i = 0; i < 4; i++) {
+            
+            int nextX = x+dx[i];
+            int nextY = y+dy[i];
+            
+            if (nextX > -1 && nextX < N && nextY > -1 &&  nextY < N){
+                
+                if (!visited[nextX][nextY]){
+                    next.push(make_pair(nextX, nextY));
+                    visited[nextX][nextY] = true;
+                }
+            }
         }
     }
-        
-    return num;
+    
+    int cost = k*k + (k-1)*(k-1);
+    int pay = house*M;
+    
+    if (answer < house && pay >= cost)
+        answer = house;
+    
+    if (!next.empty())
+        bfs(next, ++k, house);
 }
+
 
 
 int main() {
@@ -48,37 +74,29 @@ int main() {
     for (int t = 0; t < T; t++){
         
         fill(map[0], map[0]+400, 0);
-        houseNum = 0;
+        answer = 0;
+        
         cin >> N >> M;
         
         for (int i = 0; i < N; i++)
-            for (int j = 0; j < N; j++){
+            for (int j = 0; j < N; j++)
                 cin >> map[i][j];
-                if (map[i][j] == 1)
-                    houseNum++;
-            }
+  
         
-        maxCost = houseNum*M;
-        maxK = (int) sqrt((double)maxCost);
-   
-    
-        int maxHouse = 0;
         
-        for (int k = 1; k <= maxK; k++){
-            for (int i = 0; i < N; i++){
-                for (int j = 0; j < N; j++){
-                    
-                    int num = findHouseNum(k, i, j);
-                    if (maxHouse < num)
-                    {
-                        maxHouse = num;
-                        answer = k;
-                    }
-                    
-                }
+        for (int i = 0; i < N; i++){
+            for (int j = 0; j < N; j++){
+                fill(visited[0], visited[0]+400, false);
+                queue<pair<int, int> > que;
+                que.push(make_pair(i, j));
+                visited[i][j] = true;
+                
+                startX = i;
+                startY = j;
+                
+                bfs(que, 1, 0);
             }
         }
-        
         answers.push_back(answer);
         
     }
