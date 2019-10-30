@@ -189,11 +189,17 @@
 
 #### Reference
 
- [https://stdin2stdout.tistory.com/entry/QHash%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94](https://stdin2stdout.tistory.com/entry/QHash에-대해서-설명할-수-있나요) 
+[https://stdin2stdout.tistory.com/entry/QHash%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94](https://stdin2stdout.tistory.com/entry/QHash에-대해서-설명할-수-있나요) 
 
 https://kingpodo.tistory.com/30 
 
- https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html 
+https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html 
+ 
+https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/DataStructure
+
+https://github.com/WeareSoft/tech-interview/blob/master/contents/datastructure.md
+
+http://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221371437794&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
 
 #### 예상질문
 1. Array vs List
