@@ -1,3 +1,8 @@
+#### 예상질문
+1. Array vs List
+2. Stack, Queue, Graph, Tree, Heap
+3. Hashtable
+
 ### Array와 Linked List 비교
 - 개념
   - Array: 데이터를 **연속되는 기억장소에 저장**한 자료구조
@@ -200,11 +205,6 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/DataSt
 https://github.com/WeareSoft/tech-interview/blob/master/contents/datastructure.md
 
 http://blog.naver.com/PostView.nhn?blogId=qbxlvnf11&logNo=221371437794&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
-
-#### 예상질문
-1. Array vs List
-2. Stack, Queue, Graph, Tree, Heap
-3. Hashtable
 
 
 
